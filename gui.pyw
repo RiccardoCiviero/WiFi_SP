@@ -20,28 +20,25 @@ def buttonClear_handler(event):
     passwdEntry.delete(0, tk.END)
 
 title = tk.Label(
-    text="CoreTech WiFi",
-    bg="cyan"
+    text = "CoreTech WiFi",
 )
 userLabel = tk.Label(
-    text="Username:",
-    bg="cyan"
+    text = "Username:",
 )
 userEntry = tk.Entry(
 
 )
 passwdLabel = tk.Label(
-    text="Password:",
-    bg="cyan"
+    text = "Password:",
 )
 passwdEntry = tk.Entry(
     
 )
 buttonOk = tk.Button(
-    text="OK"
+    text = "OK"
 )
 buttonClear = tk.Button(
-    text="Clear"
+    text = "Clear"
 )
 
 # Rendering
@@ -58,4 +55,3 @@ buttonOk.bind("<Button-1>", buttonOk_handler)
 buttonClear.bind("<Button-1>", buttonClear_handler)
 
 window.mainloop()
-
