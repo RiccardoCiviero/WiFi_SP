@@ -1,6 +1,8 @@
 INSTALLER
-- Creare dir
-- Startup
+- Creare dir (OK)
+- Startup (OK)
+- Launch
+
 UNISTALLER
 - Remove files
 - Remove startup link
