@@ -2,9 +2,9 @@ import os
 import time
 import subprocess
 import requests
-import re
+# import re
 from splinter import Browser
-import mechanize
+# import mechanize
 
 sleepTime = 10
 longSleepTime = 60 # 1 min

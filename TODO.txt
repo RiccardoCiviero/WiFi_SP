@@ -1,0 +1,6 @@
+INSTALLER
+- Creare dir
+- Startup
+UNISTALLER
+- Remove files
+- Remove startup link
